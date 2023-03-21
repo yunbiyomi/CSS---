@@ -1,0 +1,134 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+	/*
+	font-weight: 500;
+	font-weight: 700;
+	*/
+}
+
+/* reset */
+body,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+body {
+	font-size: 14px;
+	background-color: #673399;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1, h2, h3 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.wrap {
+	width: 1080px;
+	margin: 100px auto;
+}
+
+.header-title strong {
+	font-weight: 500;
+	width: max-content;
+	position: relative;
+}
+
+.header-wrap {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.header-title {
+	flex-basis: 26%;
+	font-size: 40px;
+	color: #fff;
+}
+
+.header-title strong::after {
+	position: absolute;
+	content: " ";
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	height: 20px;
+	background-color: orangered;
+	z-index: -1;
+}
+
+.header-content {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	padding-right: 90px;
+	color: #bd8fe8;
+}
+
+.header-content::before {
+	content: " ";
+	width: 80px;
+	height: 2px;
+	margin: 0 30px 0 0;
+	background-color: #bd8fe8;
+}
+
+.container-list {
+	display: flex;
+	margin-bottom: 24px;
+}
+
+.container-title {
+	font-size: 30px;
+	color: #fff;
+	flex-basis: 26%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(/송윤비_zigzag/images/photo01.png) no-repeat 0 center / cover;
+}
+
+.list-wrap {
+	background: #fff;
+	flex-grow: 1;
+	padding: 24px;
+}
+
+.list-title {
+	margin-bottom: 32px;
+	color: #673399;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.dot {
+	margin-bottom: 5px;
+	display: flex;
+}
+
+.dot::before {
+	content: " ";
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-right: 10px;
+	bottom: -20px;
+	background-color: #bd8fe8;
+}
+
+.craft {
+	background: url(/송윤비_zigzag/images/photo02.png) no-repeat 0 center / cover;
+}
+
+.scrap {
+	background: url(/송윤비_zigzag/images/photo03.png) no-repeat 0 center / cover;
+}
